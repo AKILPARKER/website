@@ -1,0 +1,20 @@
+<html>
+<head>
+<title> linking the page</title>
+<script>
+function goto_page()
+{
+	var c=confirm("do you really want to visit vit home page");
+	if(c==true)
+	window.location="http://vit.ac.in";
+	else
+	window.location="http://www.google.com";
+	}
+</script>
+</head>
+<body>
+     <script>
+     document.write(goto_page());
+     </script>
+</body>
+</html>
